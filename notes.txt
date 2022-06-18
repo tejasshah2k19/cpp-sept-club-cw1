@@ -1,0 +1,19 @@
+constructor 
+
+
+its a special method/function which has same name 
+as a class name and which must not have any 
+return type.  
+it will call automatically when we create instance/object. 
+
+constructor is used to initialize instance variable. 
+
+
+we have three types of constructor 
+1) no argument - default 
+2) parameterized constructor 
+3) copy constructor 
+
+Bowler(){
+
+}

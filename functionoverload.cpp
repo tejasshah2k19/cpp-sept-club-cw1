@@ -7,7 +7,7 @@ class Amazon{
         void search(int a,int b){
             cout<<a+b;
         }
-        void search(float x,float y){
+        void search(double x,double y){
             cout<<x+y;
         }
         // void search(int k,int l){
@@ -24,8 +24,10 @@ class Amazon{
 int main()
 {
      Amazon a;
-     a.search(1,2);
- 
+     a.search(1,2);//long int 
+     cout<<endl;
+     a.search(12.12,12.12);
+     
     return 0;
 }
 

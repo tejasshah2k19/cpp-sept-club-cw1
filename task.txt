@@ -14,7 +14,30 @@
 	2) view my bookings 
 	3) exit 
 
-
+	1) book ticket 
+			enter number 
+			9510
+			gold 
+			silver 
+			diamond
+			s 
+			5
+	2) view my bookings 
+		enter number
+		9520
+		no booking found 
+	   view my bookings 
+		enter number
+		9510
+		silver 5	250	1250 
+	3)
+ 
 2) extend cinemax app and add cancel ticket feature so customer can cancel tickets.
 	refund amount need to be credited in customer's account. 
+
+	4) enter number 
+	   9510
+	   booking cancle.
+	   walletBalance = 1250 	
+
  

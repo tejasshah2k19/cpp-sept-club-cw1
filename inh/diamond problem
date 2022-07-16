@@ -1,0 +1,52 @@
+we have three calss Add Sub and Mul 
+Add class having function add()
+Sub class has function sub()
+Mul class has function mul() 
+
+Mul class is a child of Add and Sub 
+
+now create object of Mul class and call all three methods.
+
+add 1 class GP 
+GP has sqr()
+Add and Sub class is child of GP
+
+now create object of Mul class and call all 4 methods.
+
+
+virtual -> inheritance 
+
+
+#diamond proble# 
+#virtual base class# 
+#how to solve ambiguity in inheritance# 
+class GP{
+
+};
+class Add : virtual public GP {
+
+
+};
+
+class Sub : virtual public GP {
+
+
+};
+class Mul: public Add , public Sub{
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

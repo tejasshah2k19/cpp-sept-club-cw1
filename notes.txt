@@ -19,4 +19,32 @@ Bowler(){
 }
 ---------------------------------------------------------------
 
+type variable ? 
+local - method - block 
+global - outside class 
+instance - inside class - but not in method 
+static - inside class or inside function - single copy 
+int MIN_BAL = 5000; //global 
+class Bank{
+    private:
+        int K;
+    public:
+       int bal; //instance variable
+       static int BRANCH_CODE;//static - single copy  
+       void wid(){
+            int amt;//local 
+
+       }
+       dep();
+
+};
+class NBFC{
+
+};
+int main(){
+    Bank ds;//bal
+    Bank rs; //bal 
+
+}
+
 

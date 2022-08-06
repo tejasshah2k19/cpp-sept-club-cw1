@@ -1,0 +1,45 @@
+single level inheritance. 
+	class Parent 
+	class Child
+
+
+	Parent class Property :
+		public default constructor -> print Parent()
+		public greet() -> this function print good morning 
+
+	Child class Property: 
+		public default constructor -> print Child()
+		public greet() -> this function print good afternoon 
+
+	
+	main:-
+		1) create object of child class
+			call greet function -> Parent() Child() g.a
+		2) create object of parent class 
+			call greet function -> Parent() g.m  
+		3) create object of parent class using pointer.
+
+	constructor in inheritance ->
+		child object -> child constructor -> before child it will call parent constructor 
+
+		greet() Parent 
+		greet() Child 
+			function overriding 
+		
+		Parent parent; //object -> dot 
+		parent.greet();
+		Child child; 
+
+		Parent *p;
+		p = &parent;
+		p->greet();//object pointer type -> arrow 
+		//good morning 		
+
+		p = &child;//parent = child [ polymorphic object ] 
+		p->greet();//good morning   [ virtual function ] [ pure virtual function ] 
+
+		4 pm 
+
+		
+
+			

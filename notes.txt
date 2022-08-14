@@ -47,4 +47,23 @@ int main(){
 
 }
 
+---------------------------------------------------------------
+data perm -> store -> c ? file  
+name = royal 
 
+bank  -> bal =10000 
+         add =5000 [15000] -- > file 
+
+file -> read -> ifstream 
+        write -> ofstream
+                 fstream  
+
+
+console -> read  istream 
+           write ostream
+           iostream 
+
+
+
+
+1) take five numbers from user and store into file. 
